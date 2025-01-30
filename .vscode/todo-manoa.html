@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+            <div class="flex flex-col h-screen gap-y-4 w-full bg-gradient-to-r from-lime-400 to-green-600">
+                <h4 class="text-center text-[40px] text-slate-800 font-bold">NANTAP INTERNAL DOUGHNUT</h4>
+                <div class="bg-white flex rounded-md p-5 w-8/12 mx-auto">
+                    <div class="flex w-full gap-x-4">
+                        <input 
+                            type="text"
+                            id="todo-input"
+                            placeholder="Buy Doughnut"
+                            class="border-slate-400 border w-full p-2 placeholder-slate-300"
+                        >
+        
+                        <button id="btn" class="bg-green-400 text-[20px] p-2">Buy</button>
+                    </div>
+                </div>
+                <div class="p-2 flex justify-between w-8/12 mx-auto bg-white">
+                    <span>Total No. Doughnut: <span id="total"></span></span>
+                    <span>Doughnut Purchase: <span id="compl"></span></span>
+                    <span>Amount:<span id="uncompl"></span></span>
+                </div>
+                <div id="todos-container" class="flex flex-col w-8/12 mx-auto p-5 bg-white">
+                    <h4 class="font-bold text-[30px]">List OF Buyers</h4>
+                </div>
+            </div>
+            
+        
+        
+
+    <script src="todolist.js"></script>
+</body>
+</html>
